@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="lab(29.2345% 39.3825 20.0664)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body id = 'contenido'>
+   <div>
+
+    <h1 >  Find the Treasure</h1>
+    <div>
+        <button  id="start" >Start Game</button>
+    </div>
+    <div>
+        <nav>
+            <p id="count" style="display: none;">Click: <span id="contador">0</span></p>
+            <p id="sec" style="display: none;">Time: <span id="segundos">Seconds</span></p>
+        </nav>
+    </div>
+    
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="assets/findTreasure.jpg" class="imagen" id="1"  >
+        </div>
+        <div class="slide">
+            <img src="assets/img2.webp" class="imagen" id="2" >
+        </div>
+        <div class="slide">
+            <img src="assets/img3.jpg" class="imagen" id="3" >
+        </div>
+    </div>
+
+    <a id="a" class="prev" onclick="cambiarSlide(-1)">Prev</a>
+    <a id="b" class="next" onclick="cambiarSlide(1)">Next</a>
+
+   </div>
+  <footer>
+    <p id="p" >Select a Map</p>
+
+  </footer>
+    <script src="index.js"></script>
+</body>
+</html>
