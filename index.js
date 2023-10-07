@@ -65,7 +65,6 @@ const takeHelp = (distance) => {
     return "Hot";
   } else if (distance < 160) {
     p.innerHTML = "Cold";
-
     return "Cold";
   }
 };

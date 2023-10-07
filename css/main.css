@@ -11,6 +11,10 @@ h1{
     border: 3px solid #ffcc00;
 }
 
+.tesoro {
+    font-size: 36px; /* Tamaño personalizado */
+    color: #FFD700; /* Color personalizado (amarillo dorado) */
+  }
 @keyframes fade-scale {
     0% {
       opacity: 0;
